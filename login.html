@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NEXUS Login</title>
+</head>
+
+<body style="text-align:center;font-family:Arial">
+
+<h2>Enter NEXUS ID</h2>
+
+<input type="text" id="id">
+
+<br><br>
+
+<button onclick="login()">Verify</button>
+
+<script>
+
+function login(){
+
+var id=document.getElementById("id").value;
+
+if(id=="NX1234"){
+window.location="otp.html";
+}
+else{
+alert("Invalid NEXUS ID");
+}
+
+}
+
+</script>
+
+</body>
+</html>
